@@ -13,7 +13,8 @@
 
 ## 📋 系统要求
 
-- Node.js 16.0 或更高版本
+- Node.js 22 或更高版本(安装nodejs 22 请参考 https://nodejs.org/zh-cn/download/releases/)
+- pnpm 9.15.0 或更高版本(安装pnpm 请参考 https://pnpm.io/installation)
 - GitHub Personal Access Token
 
 ## 🚀 快速开始
@@ -37,7 +38,7 @@ MIN_DELAY=2000
 MAX_DELAY=5000
 ```
 
-### 3. 下载最新腾讯云文档至本地同级目录
+### 3. 下载最新腾讯云文档至本地替换github 仓库合集.xlsx
 ```
 
 ### 4. 运行脚本
@@ -63,7 +64,7 @@ npm start
 1. 访问 [GitHub Settings > Developer settings > Personal access tokens](https://github.com/settings/tokens)
 2. 点击 "Generate new token (classic)"
 3. 选择以下权限：
-   - `public_repo` (公开仓库访问权限)
+   - `repo` (公开仓库访问权限)
    - `user` (用户信息访问权限)
 4. 复制生成的 token 并配置到 `.env` 文件中
 
